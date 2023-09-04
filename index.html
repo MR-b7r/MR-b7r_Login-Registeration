@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and registeration </title>
+    
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    <div class="logo">
+        <h2>logo</h2>
+    </div>        
+        <ul class="navbar">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        <button class="login-btn">login</button>
+    </header>
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <span class="email-text">email</span>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <span class="password-text">password</span>
+                </div>
+                <div class="remember-forget">
+                    <div class="remember">
+                        <span><input type="checkbox"> remember me</span>
+                    </div>
+                    <div class="forget">
+                        <a href="#">forgot password ?</a>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit" class="submit-btn">Login</button>
+                </div>
+                <div class="login-register">
+                    <p>don't have an account?<a href="#" class="register-link">register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>registeration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" required>
+                    <span class="username-text">username</span>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <span class="email-text">email</span>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <span class="password-text">password</span>
+                </div>
+                <div class="remember-forget">
+                    <div class="remember">
+                        <span><input type="checkbox">i agree to the terms & conditions</span>
+                    </div>
+                    
+                </div>
+                <div class="submit">
+                    <button type="submit" class="submit-btn">Register</button>
+                </div>
+                <div class="login-register">
+                    <p>already have an account?<a href="#" class="login-link">login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
